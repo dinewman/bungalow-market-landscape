@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>html{color-scheme:light dark}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Bungalow Market Competitive Landscape</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* required styles */ .leaflet-pane, .leaflet-tile, .leaflet-marker-icon, .leaflet-marker-shadow, .leaflet-tile-container, .leaflet-pane > svg, .leaflet-pane > canvas, .leaflet-zoom-box, .leaflet-image-layer, .leaflet-layer { position: absolute; left: 0; top: 0; } .leaflet-container { overflow: hidden; } .leaflet-tile, .leaflet-marker-icon, .leaflet-marker-shadow { -webkit-user-select: none; -moz-user-select: none; user-select: none; -webkit-user-drag: none; } /* Prevents IE11 from highlighting tiles in blue */ .leaflet-tile::selection { background: transparent; } /* Safari renders non-retina tile on retina better with this, but Chrome is worse */ .leaflet-safari .leaflet-tile { image-rendering: -webkit-optimize-contrast; } /* hack that prevents hw layers "stretching" when loading new tiles */ .leaflet-safari .leaflet-tile-container { width: 1600px; height: 1600px; -webkit-transform-origin: 0 0; } .leaflet-marker-icon, .leaflet-marker-shadow { display: block; } /* .leaflet-container svg: reset svg max-width decleration shipped in Joomla! (joomla.org) 3.x */ /* .leaflet-container img: map is broken in FF if you have max-width: 100% on tiles */ .leaflet-container .leaflet-overlay-pane svg { max-width: none !important; max-height: none !important; } .leaflet-container .leaflet-marker-pane img, .leaflet-container .leaflet-shadow-pane img, .leaflet-container .leaflet-tile-pane img, .leaflet-container img.leaflet-image-layer, .leaflet-container .leaflet-tile { max-width: none !important; max-height: none !important; width: auto; padding: 0; } .leaflet-container img.leaflet-tile { /* See: https://bugs.chromium.org/p/chromium/issues/detail?id=600120 */ mix-blend-mode: plus-lighter; } .leaflet-container.leaflet-touch-zoom { -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; } .leaflet-container.leaflet-touch-drag { -ms-touch-action: pinch-zoom; /* Fallback for FF which doesn't support pinch-zoom */ touch-action: none; touch-action: pinch-zoom; } .leaflet-container.leaflet-touch-drag.leaflet-touch-zoom { -ms-touch-action: none; touch-action: none; } .leaflet-container { -webkit-tap-highlight-color: transparent; } .leaflet-container a { -webkit-tap-highlight-color: rgba(51, 181, 229, 0.4); } .leaflet-tile { filter: inherit; visibility: hidden; } .leaflet-tile-loaded { visibility: inherit; } .leaflet-zoom-box { width: 0; height: 0; -moz-box-sizing: border-box; box-sizing: border-box; z-index: 800; } /* workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=888319 */ .leaflet-overlay-pane svg { -moz-user-select: none; } .leaflet-pane { z-index: 400; } .leaflet-tile-pane { z-index: 200; } .leaflet-overlay-pane { z-index: 400; } .leaflet-shadow-pane { z-index: 500; } .leaflet-marker-pane { z-index: 600; } .leaflet-tooltip-pane { z-index: 650; } .leaflet-popup-pane { z-index: 700; } .leaflet-map-pane canvas { z-index: 100; } .leaflet-map-pane svg { z-index: 200; } .leaflet-vml-shape { width: 1px; height: 1px; } .lvml { behavior: none; display: inline-block; position: absolute; } /* control positioning */ .leaflet-control { position: relative; z-index: 800; pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */ pointer-events: auto; } .leaflet-top, .leaflet-bottom { position: absolute; z-index: 1000; pointer-events: none; } .leaflet-top { top: 0; } .leaflet-right { right: 0; } .leaflet-bottom { bottom: 0; } .leaflet-left { left: 0; } .leaflet-control { float: left; clear: both; } .leaflet-right .leaflet-control { float: right; } .leaflet-top .leaflet-control { margin-top: 10px; } .leaflet-bottom .leaflet-control { margin-bottom: 10px; } .leaflet-left .leaflet-control { margin-left: 10px; } .leaflet-right .leaflet-control { margin-right: 10px; } /* zoom and fade animations */ .leaflet-fade-anim .leaflet-popup { opacity: 0; -webkit-transition: opacity 0.2s linear; -moz-transition: opacity 0.2s linear; transition: opacity 0.2s linear; } .leaflet-fade-anim .leaflet-map-pane .leaflet-popup { opacity: 1; } .leaflet-zoom-animated { -webkit-transform-origin: 0 0; -ms-transform-origin: 0 0; transform-origin: 0 0; } svg.leaflet-zoom-animated { will-change: transform; } .leaflet-zoom-anim .leaflet-zoom-animated { -webkit-transition: -webkit-transform 0.25s cubic-bezier(0,0,0.25,1); -moz-transition: -moz-transform 0.25s cubic-bezier(0,0,0.25,1); transition: transform 0.25s cubic-bezier(0,0,0.25,1); } .leaflet-zoom-anim .leaflet-tile, .leaflet-pan-anim .leaflet-tile { -webkit-transition: none; -moz-transition: none; transition: none; } .leaflet-zoom-anim .leaflet-zoom-hide { visibility: hidden; } /* cursors */ .leaflet-interactive { cursor: pointer; } .leaflet-grab { cursor: -webkit-grab; cursor: -moz-grab; cursor: grab; } .leaflet-crosshair, .leaflet-crosshair .leaflet-interactive { cursor: crosshair; } .leaflet-popup-pane, .leaflet-control { cursor: auto; } .leaflet-dragging .leaflet-grab, .leaflet-dragging .leaflet-grab .leaflet-interactive, .leaflet-dragging .leaflet-marker-draggable { cursor: move; cursor: -webkit-grabbing; cursor: -moz-grabbing; cursor: grabbing; } /* marker & overlays interactivity */ .leaflet-marker-icon, .leaflet-marker-shadow, .leaflet-image-layer, .leaflet-pane > svg path, .leaflet-tile-container { pointer-events: none; } .leaflet-marker-icon.leaflet-interactive, .leaflet-image-layer.leaflet-interactive, .leaflet-pane > svg path.leaflet-interactive, svg.leaflet-image-layer.leaflet-interactive path { pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */ pointer-events: auto; } /* visual tweaks */ .leaflet-container { background: #ddd; outline-offset: 1px; } .leaflet-container a { color: #0078A8; } .leaflet-zoom-box { border: 2px dotted #38f; background: rgba(255,255,255,0.5); } /* general typography */ .leaflet-container { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; font-size: 12px; font-size: 0.75rem; line-height: 1.5; } /* general toolbar styles */ .leaflet-bar { box-shadow: 0 1px 5px rgba(0,0,0,0.65); border-radius: 4px; } .leaflet-bar a { background-color: #fff; border-bottom: 1px solid #ccc; width: 26px; height: 26px; line-height: 26px; display: block; text-align: center; text-decoration: none; color: black; } .leaflet-bar a, .leaflet-control-layers-toggle { background-position: 50% 50%; background-repeat: no-repeat; display: block; } .leaflet-bar a:hover, .leaflet-bar a:focus { background-color: #f4f4f4; } .leaflet-bar a:first-child { border-top-left-radius: 4px; border-top-right-radius: 4px; } .leaflet-bar a:last-child { border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-bottom: none; } .leaflet-bar a.leaflet-disabled { cursor: default; background-color: #f4f4f4; color: #bbb; } .leaflet-touch .leaflet-bar a { width: 30px; height: 30px; line-height: 30px; } .leaflet-touch .leaflet-bar a:first-child { border-top-left-radius: 2px; border-top-right-radius: 2px; } .leaflet-touch .leaflet-bar a:last-child { border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; } /* zoom control */ .leaflet-control-zoom-in, .leaflet-control-zoom-out { font: bold 18px 'Lucida Console', Monaco, monospace; text-indent: 1px; } .leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out { font-size: 22px; } /* layers control */ .leaflet-control-layers { box-shadow: 0 1px 5px rgba(0,0,0,0.4); background: #fff; border-radius: 5px; } .leaflet-control-layers-toggle { background-image: none; width: 36px; height: 36px; } .leaflet-retina .leaflet-control-layers-toggle { background-image: none; background-size: 26px 26px; } .leaflet-touch .leaflet-control-layers-toggle { width: 44px; height: 44px; } .leaflet-control-layers .leaflet-control-layers-list, .leaflet-control-layers-expanded .leaflet-control-layers-toggle { display: none; } .leaflet-control-layers-expanded .leaflet-control-layers-list { display: block; position: relative; } .leaflet-control-layers-expanded { padding: 6px 10px 6px 6px; color: #333; background: #fff; } .leaflet-control-layers-scrollbar { overflow-y: scroll; overflow-x: hidden; padding-right: 5px; } .leaflet-control-layers-selector { margin-top: 2px; position: relative; top: 1px; } .leaflet-control-layers label { display: block; font-size: 13px; font-size: 1.08333em; } .leaflet-control-layers-separator { height: 0; border-top: 1px solid #ddd; margin: 5px -10px 5px -6px; } /* Default icon URLs */ .leaflet-default-icon-path { /* used only in path-guessing heuristic, see L.Icon.Default */ background-image: none; } /* attribution and scale controls */ .leaflet-container .leaflet-control-attribution { background: #fff; background: rgba(255, 255, 255, 0.8); margin: 0; } .leaflet-control-attribution, .leaflet-control-scale-line { padding: 0 5px; color: #333; line-height: 1.4; } .leaflet-control-attribution a { text-decoration: none; } .leaflet-control-attribution a:hover, .leaflet-control-attribution a:focus { text-decoration: underline; } .leaflet-attribution-flag { display: inline !important; vertical-align: baseline !important; width: 1em; height: 0.6669em; } .leaflet-left .leaflet-control-scale { margin-left: 5px; } .leaflet-bottom .leaflet-control-scale { margin-bottom: 5px; } .leaflet-control-scale-line { border: 2px solid #777; border-top: none; line-height: 1.1; padding: 2px 5px 1px; white-space: nowrap; -moz-box-sizing: border-box; box-sizing: border-box; background: rgba(255, 255, 255, 0.8); text-shadow: 1px 1px #fff; } .leaflet-control-scale-line:not(:first-child) { border-top: 2px solid #777; border-bottom: none; margin-top: -2px; } .leaflet-control-scale-line:not(:first-child):not(:last-child) { border-bottom: 2px solid #777; } .leaflet-touch .leaflet-control-attribution, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar { box-shadow: none; } .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar { border: 2px solid rgba(0,0,0,0.2); background-clip: padding-box; } /* popup */ .leaflet-popup { position: absolute; text-align: center; margin-bottom: 20px; } .leaflet-popup-content-wrapper { padding: 1px; text-align: left; border-radius: 12px; } .leaflet-popup-content { margin: 13px 24px 13px 20px; line-height: 1.3; font-size: 13px; font-size: 1.08333em; min-height: 1px; } .leaflet-popup-content p { margin: 17px 0; margin: 1.3em 0; } .leaflet-popup-tip-container { width: 40px; height: 20px; position: absolute; left: 50%; margin-top: -1px; margin-left: -20px; overflow: hidden; pointer-events: none; } .leaflet-popup-tip { width: 17px; height: 17px; padding: 1px; margin: -10px auto 0; pointer-events: auto; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); } .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: white; color: #333; box-shadow: 0 3px 14px rgba(0,0,0,0.4); } .leaflet-container a.leaflet-popup-close-button { position: absolute; top: 0; right: 0; border: none; text-align: center; width: 24px; height: 24px; font: 16px/24px Tahoma, Verdana, sans-serif; color: #757575; text-decoration: none; background: transparent; } .leaflet-container a.leaflet-popup-close-button:hover, .leaflet-container a.leaflet-popup-close-button:focus { color: #585858; } .leaflet-popup-scrolled { overflow: auto; } .leaflet-oldie .leaflet-popup-content-wrapper { -ms-zoom: 1; } .leaflet-oldie .leaflet-popup-tip { width: 24px; margin: 0 auto; -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678)"; filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678); } .leaflet-oldie .leaflet-control-zoom, .leaflet-oldie .leaflet-control-layers, .leaflet-oldie .leaflet-popup-content-wrapper, .leaflet-oldie .leaflet-popup-tip { border: 1px solid #999; } /* div icon */ .leaflet-div-icon { background: #fff; border: 1px solid #666; } /* Tooltip */ /* Base styles for the element that has a tooltip */ .leaflet-tooltip { position: absolute; padding: 6px; background-color: #fff; border: 1px solid #fff; border-radius: 3px; color: #222; white-space: nowrap; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; pointer-events: none; box-shadow: 0 1px 3px rgba(0,0,0,0.4); } .leaflet-tooltip.leaflet-interactive { cursor: pointer; pointer-events: auto; } .leaflet-tooltip-top:before, .leaflet-tooltip-bottom:before, .leaflet-tooltip-left:before, .leaflet-tooltip-right:before { position: absolute; pointer-events: none; border: 6px solid transparent; background: transparent; content: ""; } /* Directions */ .leaflet-tooltip-bottom { margin-top: 6px; } .leaflet-tooltip-top { margin-top: -6px; } .leaflet-tooltip-bottom:before, .leaflet-tooltip-top:before { left: 50%; margin-left: -6px; } .leaflet-tooltip-top:before { bottom: 0; margin-bottom: -12px; border-top-color: #fff; } .leaflet-tooltip-bottom:before { top: 0; margin-top: -12px; margin-left: -6px; border-bottom-color: #fff; } .leaflet-tooltip-left { margin-left: -6px; } .leaflet-tooltip-right { margin-left: 6px; } .leaflet-tooltip-left:before, .leaflet-tooltip-right:before { top: 50%; margin-top: -6px; } .leaflet-tooltip-left:before { right: 0; margin-right: -12px; border-left-color: #fff; } .leaflet-tooltip-right:before { left: 0; margin-left: -12px; border-right-color: #fff; } /* Printing */ @media print { /* Prevent printers from removing background-images of controls. */ .leaflet-control { -webkit-print-color-adjust: exact; print-color-adjust: exact; } } 
+/* Layout: header and view tabs; Map view = store list beside map; Compare view = sortable table vs baseline, then side-by-side cards. */
+:root{
+  --bg:#f2f5f4; --panel:#ffffff; --ink:#1b2a2e; --muted:#5d6e72; --line:#d5dfdd; --accent:#1f6f78; --water:#dfe9ea; --base:#1b2a2e; --band:rgba(31,111,120,.16);
+  --c1:#1f6f78; --c2:#d9822b; --c3:#6b4fa0; --c4:#c2415a; --c5:#5d8a2e; --c6:#3b6fb6;
+  --o1:#b4d4d8; --o2:#4a9aa3; --o3:#14525a;
+  --yes:#2f7d4f; --no:#8c5a2b; --on:#fff;
+  --display:'Fraunces',Georgia,serif; --body:'Public Sans',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12191b; --panel:#1b2528; --ink:#e6eeee; --muted:#9aabae; --line:#2e3c40; --accent:#5bbcc7; --water:#1b2a2e; --base:#e6eeee; --band:rgba(91,188,199,.22);
+  --c1:#4fb4bf; --c2:#f0a050; --c3:#a58bdc; --c4:#ee7a92; --c5:#92c35a; --c6:#7aa7e6;
+  --o1:#2c5a61; --o2:#4fa0ab; --o3:#9bdde6; --yes:#6cc28d; --no:#d9a070; --on:#0b1214; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12191b; --panel:#1b2528; --ink:#e6eeee; --muted:#9aabae; --line:#2e3c40; --accent:#5bbcc7; --water:#1b2a2e; --base:#e6eeee; --band:rgba(91,188,199,.22);
+  --c1:#4fb4bf; --c2:#f0a050; --c3:#a58bdc; --c4:#ee7a92; --c5:#92c35a; --c6:#7aa7e6;
+  --o1:#2c5a61; --o2:#4fa0ab; --o3:#9bdde6; --yes:#6cc28d; --no:#d9a070; --on:#0b1214; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:14px/1.45 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px}
+h1{font:600 26px/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:600 18px/1.2 var(--display);margin:0 0 8px}
+.top{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between;margin-bottom:12px}
+.sub{color:var(--muted);margin:4px 0 0;max-width:68ch}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.tabs button{font:inherit;font-weight:600;background:none;color:var(--muted);border:0;border-bottom:3px solid transparent;padding:8px 14px;cursor:pointer;margin-bottom:-1px}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+input[type=search],select{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:7px 10px;min-width:0;max-width:100%}
+input[type=search]{width:200px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.chip{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--c)}
+.chip[aria-pressed=false]{opacity:.45}
+.chip[aria-pressed=false] i{background:transparent;box-shadow:inset 0 0 0 2px var(--c)}
+.chip b{font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+.wrap{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:12px;height:min(720px,calc(100vh - 250px));min-height:520px}
+#list{overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px;margin:0;padding:0;list-style:none}
+#list li{padding:10px 12px;border-bottom:1px solid var(--line);cursor:pointer;display:grid;grid-template-columns:12px minmax(0,1fr);gap:4px 10px}
+#list li:hover,#list li.on{background:var(--bg)}
+#list i{width:10px;height:10px;border-radius:50%;margin-top:5px;background:var(--c)}
+#list li.base i{background:var(--base);box-shadow:0 0 0 3px var(--band)}
+#list strong{font-weight:600}
+#list small{display:block;color:var(--muted)}
+#mapbox{position:relative;border:1px solid var(--line);border-radius:8px;overflow:hidden;min-height:0}
+#map{position:absolute;inset:0;background:var(--water);font-family:var(--body)}
+#note{position:absolute;left:10px;bottom:10px;z-index:500;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:12px;color:var(--muted);max-width:290px}
+.town{font:600 12px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap;text-shadow:0 0 3px var(--bg),0 0 3px var(--bg),0 0 3px var(--bg);pointer-events:none}
+.baselbl{display:block;transform:translate(-50%,-34px);white-space:nowrap;font:600 12px var(--body);background:var(--base);color:var(--bg);padding:2px 8px;border-radius:4px;pointer-events:none}
+.leaflet-tooltip.tip{background:var(--panel);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px 12px;box-shadow:0 6px 20px rgba(0,0,0,.2);white-space:normal;width:min(330px,80vw);font:13px/1.4 var(--body)}
+.leaflet-tooltip.tip:before{display:none}
+.tip h3{font:600 16px/1.2 var(--display);margin:0 0 2px}
+dl.kv{margin:8px 0 0;display:grid;grid-template-columns:96px minmax(0,1fr);gap:3px 8px}
+dl.kv dt{color:var(--muted);font-size:12px}
+dl.kv dd{margin:0;overflow-wrap:anywhere}
+.tag{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;background:var(--c);color:var(--on);margin-top:4px}
+.tag.base{background:var(--base);color:var(--bg)}
+.vs{margin-top:8px;padding:6px 8px;border-radius:6px;background:var(--band);font-size:12px}
+.vs b{font-weight:600}
+.detail{position:absolute;z-index:600;top:10px;right:10px;width:min(370px,calc(100% - 20px));max-height:calc(100% - 20px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:0 6px 24px rgba(0,0,0,.22)}
+.detail h3{font:600 19px/1.2 var(--display);margin:0 24px 2px 0}
+.detail .x{position:absolute;top:8px;right:8px;border:0;background:none;color:var(--muted);font-size:20px;line-height:1;cursor:pointer;padding:4px 8px}
+.detail .addr{color:var(--muted);margin:0}
+.btn{font:inherit;font-weight:600;color:var(--on);background:var(--accent);border:0;border-radius:6px;padding:7px 12px;cursor:pointer;margin-top:12px}
+.btn.alt{background:var(--panel);color:var(--ink);border:1px solid var(--line)}
+.foot{color:var(--muted);font-size:12px;margin:10px 0 0;max-width:90ch}
+.muted{color:var(--muted)}
+/* Compare view */
+.scroll{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+th{font-weight:600;color:var(--muted);font-size:12px;white-space:nowrap;background:var(--panel)}
+th button{font:inherit;font-weight:600;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+th button[data-on=true]{color:var(--ink)}
+tr.base td{background:var(--band);font-weight:600}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.nm{font-weight:600}
+.nm small{display:block;font-weight:400;color:var(--muted)}
+.ovb{display:flex;align-items:center;gap:8px;min-width:130px}
+.ovb span.t{flex:1;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.ovb span.t i{display:block;height:100%;background:var(--accent)}
+.pbar{position:relative;height:10px;background:var(--line);border-radius:5px;width:140px}
+.pbar .band{position:absolute;top:-3px;bottom:-3px;background:var(--band);border-left:1px dashed var(--accent);border-right:1px dashed var(--accent)}
+.pbar .rng{position:absolute;top:1px;bottom:1px;background:var(--accent);border-radius:4px;min-width:4px}
+.pcell small{display:block;color:var(--muted);margin-top:4px}
+.pill{display:inline-block;padding:1px 9px;border-radius:999px;font-size:12px;font-weight:600;border:1px solid currentColor}
+.pill.y{color:var(--yes)} .pill.n{color:var(--no)}
+.delta{color:var(--muted);font-size:12px;margin-left:4px}
+.sbs{margin-top:20px}
+.sbs th:first-child,.sbs td:first-child{position:sticky;left:0;background:var(--panel);z-index:1;min-width:130px;color:var(--muted);font-size:12px;font-weight:600}
+.sbs td{min-width:200px;max-width:280px;vertical-align:top;overflow-wrap:anywhere}
+.sbs th.b,.sbs td.b{background:var(--band)}
+.sbs thead th{vertical-align:top;font-size:14px;color:var(--ink)}
+.sbs th .rm{display:block;margin-top:4px;font-weight:400;font-size:12px;color:var(--muted);text-decoration:underline;cursor:pointer;background:none;border:0;padding:0;font-family:inherit}
+.tg{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;border:1px solid var(--line);margin:0 4px 4px 0}
+.tg.s{background:var(--accent);color:var(--on);border-color:var(--accent)}
+.tg.m{border-style:dashed;color:var(--muted)}
+.addbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:20px 0 10px}
+.keyline{font-size:12px;color:var(--muted);margin:8px 0 0}
+@media (max-width:760px){
+  .wrap{grid-template-columns:minmax(0,1fr);grid-template-rows:440px 280px;height:auto}
+  #mapbox{order:-1}
+  h1{font-size:22px}
+}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Public+Sans:wght@400;600&display=swap">
+
+</head>
+<body>
+<div class="top">
+  <div>
+    <h1>Bungalow Market Competitive Landscape</h1>
+    <p class="sub">Home and gift retailers around Davidson, Cornelius, Huntersville and Mooresville, measured against The Bungalow Market as the baseline. Hover a pin for details and a quick comparison, or open the Compare tab for the full side-by-side.</p>
+  </div>
+</div>
+<div class="tabs" role="tablist">
+  <button role="tab" id="tab-map" aria-selected="true" aria-controls="v-map">Map</button>
+  <button role="tab" id="tab-cmp" aria-selected="false" aria-controls="v-cmp">Compare</button>
+</div>
+
+<section id="v-map" role="tabpanel" aria-labelledby="tab-map">
+  <div class="tools">
+    <input type="search" id="q" placeholder="Search stores" aria-label="Search stores">
+    <select id="town" aria-label="Filter by town"><option value="">All towns</option></select>
+    <select id="by" aria-label="Color pins by">
+      <option value="cat">Color by location type</option>
+      <option value="ov">Color by product overlap with The Bungalow Market</option>
+      <option value="vln">Color by Visit Lake Norman listing</option>
+    </select>
+    <select id="base" aria-label="Map style"></select>
+  </div>
+  <div class="legend" id="legend"></div>
+  <div class="wrap">
+    <ul id="list"></ul>
+    <div id="mapbox"><div id="map"></div><div id="note" hidden>The map background did not load from this source. Try another map style in the dropdown. Pins are still placed by coordinates.</div><div class="detail" id="detail" hidden></div></div>
+  </div>
+</section>
+
+<section id="v-cmp" role="tabpanel" aria-labelledby="tab-cmp" hidden>
+  <h2>All competitors against The Bungalow Market</h2>
+  <div class="scroll"><table id="tbl"></table></div>
+  <p class="keyline">Product categories compare 14 categories The Bungalow Market carries, assigned from each store's Inventory Focus notes. Price bars show each store's average price range on a $0 to $300 scale; the shaded band is The Bungalow Market's $20–$60. Furniture prices are not included. Hours are total open hours per week. Distance is straight-line from 202 S Main St, Davidson.</p>
+  <div class="addbar">
+    <h2 style="margin:0">Side by side</h2>
+    <select id="add" aria-label="Add a store to compare"></select>
+  </div>
+  <div class="scroll"><table class="sbs" id="sbs"></table></div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script>
+const DATA=[{"name": "The Bungalow Market", "base": true, "addr": "202 S Main St Ste a, Davidson, NC 28036", "town": "Davidson", "lat": 35.498095866946926, "lng": -80.84927037989853, "loc": "Small town, main street", "wk": "Mon–Fri: 10:00 AM – 6:00 PM", "we": "Sat: 9:30 AM – 5:00 PM, Sun: 11:00 AM – 4:00 PM", "hrs": 52.5, "inv": "Bath & Body, Accessories, Home Decor, Vintage Finds, Wall Decor/Art/Mirrors, Furniture, Pillows, Lighting, Rugs, Kitchen, Baskets, Vases & Pots, Bar & Barware, Candles, Frames, Faux Plants/Botanicals, Blankets, Gifts, Stationery, Seasonal", "tags": ["home_decor", "furniture", "wall_art", "lighting", "textiles", "kitchen_bar", "bath_body", "candles", "gifts", "stationery", "seasonal", "vintage", "florals", "apparel"], "price": "$20–$60", "plo": 20, "phi": 60, "onl": "Yes (via Square)", "oy": true, "brands": "None recorded", "social": "Facebook, Instagram", "events": "Participates in Davidson town events, such as Halloween at Davidson, Christmas at Davidson and the Cookie Crawl.", "evy": true, "vln": "Yes", "notes": "", "loy": "No", "ly": false}, {"name": "The Village Store", "base": false, "addr": "110 S Main St, Davidson, NC 28036", "town": "Davidson", "lat": 35.49881535756681, "lng": -80.84887650935458, "loc": "Small town, main street", "wk": "Mon–Fri: 9:00 AM – 6:00 PM", "we": "Sat: 9:00 AM – 6:00 PM, Sun: 9:00 AM – 4:00 PM", "hrs": 61, "inv": "Broad assortment with less curated home goods than The Bungalow Market. More knick-knacks and clothing, plus a large greeting card section.", "tags": ["gifts", "apparel", "home_decor", "stationery"], "price": "Not recorded", "plo": null, "phi": null, "onl": "No online store", "oy": false, "brands": "None recorded", "social": "Facebook, Instagram", "events": "Participates in Davidson town events, such as Halloween at Davidson, Christmas at Davidson and the Cookie Crawl.", "evy": true, "vln": "Yes", "notes": "", "loy": "No", "ly": false}, {"name": "Honeysuckle Home", "base": false, "addr": "428 S Main St, Davidson, NC 28036", "town": "Davidson", "lat": 35.49586742843168, "lng": -80.85338286519453, "loc": "Small town, mid-tier street (South Main)", "wk": "Mon–Fri: 10:00 AM – 5:00 PM", "we": "Sat: 10:00 AM – 5:00 PM, Sun: 12:00 PM – 4:00 PM", "hrs": 46, "inv": "Home decor with a more general selection: couches, tables and side tables. Also lamps, candles and wax melts, puzzles, assorted hand cream and soap, and table trinkets (greatest overlap).", "tags": ["home_decor", "furniture", "lighting", "candles", "bath_body", "gifts"], "price": "$20–$40", "plo": 20, "phi": 40, "onl": "Yes (limited stock on many items)", "oy": true, "brands": "Nora Fleming / NF Minis, Michel Design Works, Mud Pie, Taste of Old North State", "social": "Facebook, Instagram", "events": "Heirloom pumpkin painting, private workshops, charcuterie board pop-up", "evy": true, "vln": "Yes", "notes": "", "loy": "No", "ly": false}, {"name": "Dwell Home Supply", "base": false, "addr": "432 S Main St Suite 100, Davidson, NC 28036", "town": "Davidson", "lat": 35.49552530851769, "lng": -80.85325554285541, "loc": "Small town, mid-tier street (South Main)", "wk": "Mon–Thu: 10:00 AM – 5:00 PM, Fri: 10:00 AM – 6:00 PM", "we": "Sat: 10:00 AM – 5:00 PM, Sun: 12:00 PM – 4:00 PM", "hrs": 47, "inv": "Very focused on home accessories. No large furniture, but a large supply of high-end home accessories (table, bath, kitchen and more) and accent pieces.", "tags": ["home_decor", "kitchen_bar", "bath_body", "candles", "textiles"], "price": "$20–$200", "plo": 20, "phi": 200, "onl": "Yes", "oy": true, "brands": "None recorded", "social": "Facebook, Instagram", "events": "Rooted Living: A Garden to Table Life with Sara Rubens", "evy": true, "vln": "Yes", "notes": "", "loy": "Fig Points Loyalty Program", "ly": true}, {"name": "Knotty & Board Decor and Gifts", "base": false, "addr": "265 S Main St, Davidson, NC 28036", "town": "Davidson", "lat": 35.49672137865103, "lng": -80.85118767867719, "loc": "Small town, mid-tier street (South Main)", "wk": "Mon–Fri: 10:00 AM – 5:00 PM", "we": "Sat: 10:00 AM – 5:00 PM, Sun: 12:00 PM – 5:00 PM", "hrs": 47, "inv": "Assortment of gifts: keychains, earrings, stuffed animals, balms and body creams, assorted jewelry, wallets and wallet straps, bags, knick-knack kitchen accessories, and many slogan goods (towels, magnets, stickers and more).", "tags": ["gifts", "apparel", "bath_body", "kitchen_bar", "home_decor"], "price": "$10–$40", "plo": 10, "phi": 40, "onl": "Yes", "oy": true, "brands": "None recorded", "social": "Facebook, Instagram", "events": "Design with Intention and Purpose; open house", "evy": true, "vln": "Yes", "notes": "", "loy": "No", "ly": false}, {"name": "The Rumor Mill Market", "base": false, "addr": "217 Depot St, Davidson, NC 28036", "town": "Davidson", "lat": 35.50062194755369, "lng": -80.85021775750523, "loc": "Small town, side street", "wk": "Mon: Closed, Tue–Fri: 11:00 AM – 4:00 PM", "we": "Sat: 10:00 AM – 4:00 PM, Sun: 12:00 PM – 4:00 PM", "hrs": 30, "inv": "Floral, furniture, home decor and unique wall art.", "tags": ["florals", "furniture", "home_decor", "wall_art"], "price": "$20–$300", "plo": 20, "phi": 300, "onl": "Yes", "oy": true, "brands": "Annie Sloan Chalk Paint", "social": "Facebook, Instagram", "events": "Holiday Bazaar, Galentine's event", "evy": true, "vln": "Yes", "notes": "", "loy": "No", "ly": false}, {"name": "Sweet Magnolia", "base": false, "addr": "8301 Magnolia Estates Dr, Cornelius, NC 28031", "town": "Cornelius", "lat": 35.47606955256426, "lng": -80.88983271484038, "loc": "Larger town, side street", "wk": "Mon–Fri: 10:00 AM – 5:00 PM", "we": "Sat: 10:00 AM – 4:00 PM, Sun: Closed", "hrs": 41, "inv": "Lake Norman gifts and souvenirs, baby gifts, and stationery and invitations.", "tags": ["gifts", "stationery"], "price": "Not recorded", "plo": null, "phi": null, "onl": "No online store", "oy": false, "brands": "None recorded", "social": "Facebook, Instagram", "events": "Private shopping experiences; holiday open house", "evy": true, "vln": "Yes", "notes": "", "loy": "No", "ly": false}, {"name": "The Outpost at Lake Norman", "base": false, "addr": "20910 Torrence Chapel Rd D1, Cornelius, NC 28031", "town": "Cornelius", "lat": 35.487763176836616, "lng": -80.87476178261696, "loc": "Larger town, side street", "wk": "Mon: 8:00 AM – 4:00 PM, Tue–Fri: 8:00 AM – 5:00 PM", "we": "Sat–Sun: 8:00 AM – 5:00 PM", "hrs": 62, "inv": "Halloween goods; clothing (tees, hats, dresses); food and small snacks; cleaners and candles; children's goods; Lake Norman-themed goods; and goods \"collections\" (pickleball, golf, fishing, creative).", "tags": ["seasonal", "apparel", "candles", "gifts"], "price": "$20–$60", "plo": 20, "phi": 60, "onl": "Yes", "oy": true, "brands": "None recorded", "social": "Facebook, Instagram", "events": "Many (Halloween Art Show, design events, story time)", "evy": true, "vln": "Yes", "notes": "Retail is an additional service; the coffee shop is the primary business.", "loy": "The Perk Post", "ly": true}, {"name": "Lake Norman Cottage", "base": false, "addr": "200 N Harbor Pl Dr, Davidson, NC 28036", "town": "Davidson", "lat": 35.50596710667274, "lng": -80.86740000918836, "loc": "Small town, side street", "wk": "Mon–Fri: 12:00 PM – 9:00 PM", "we": "Sat–Sun: 12:00 PM – 9:00 PM", "hrs": 63, "inv": "Clothing, gifts and charcuterie boards.", "tags": ["apparel", "gifts"], "price": "Not recorded", "plo": null, "phi": null, "onl": "No", "oy": false, "brands": "None recorded", "social": "Instagram", "events": "Many (Wine Down Wednesday, brunch, among others)", "evy": true, "vln": "Yes", "notes": "Retail is an additional service; primarily a wine area and restaurant.", "loy": "Wine Club", "ly": true}, {"name": "Dutchman’s Casual Living", "base": false, "addr": "19725 Oak St #12, Cornelius, NC 28031", "town": "Cornelius", "lat": 35.48046252912784, "lng": -80.8601623049329, "loc": "Larger town, side street", "wk": "Mon–Fri: 10:00 AM – 5:00 PM", "we": "Sat: 10:00 AM – 5:00 PM, Sun: 12:00 PM – 5:00 PM", "hrs": 47, "inv": "Home decor: furniture, lighting, rugs, bedding, window treatments and holiday decor.", "tags": ["home_decor", "furniture", "lighting", "textiles", "seasonal"], "price": "Not recorded", "plo": null, "phi": null, "onl": "Yes", "oy": true, "brands": "None recorded", "social": "Facebook, Instagram", "events": "Design services", "evy": true, "vln": "No", "notes": "", "loy": "To the Trade", "ly": true}, {"name": "The Perfect Home & Gift", "base": false, "addr": "9755 Sam Furr Rd, Huntersville, NC 28078", "town": "Huntersville", "lat": 35.4446465, "lng": -80.86196295074181, "loc": "Larger town, shopping center off main street", "wk": "Mon–Fri: 10:00 AM – 6:00 PM", "we": "Sat: 10:00 AM – 6:00 PM, Sun: 12:00 PM – 5:00 PM", "hrs": 53, "inv": "Fashion, home decor, drinkware, frames, and bath and body.", "tags": ["apparel", "home_decor", "kitchen_bar", "wall_art", "bath_body"], "price": "$40–$130", "plo": 40, "phi": 130, "onl": "Yes (via SHOP)", "oy": true, "brands": "Nora Fleming, Scout, Jess & Jane, Judy Blue, Lulu B, Tribal, Habitat, Olivia, Rain and Rose, Clara Sun Woo, Lemon Grass, Dizzie Lizzie, Ethyl, Charlie B, Joh, Kerism, Gretchen Scott", "social": "Facebook, Instagram", "events": "None recorded", "evy": false, "vln": "Yes", "notes": "", "loy": "No", "ly": false}, {"name": "Accent Prone", "base": false, "addr": "15435 NC-73, Huntersville, NC 28078", "town": "Huntersville", "lat": 35.432074925982306, "lng": -80.90912419148287, "loc": "Larger town, side street", "wk": "Mon: Closed, Tue–Fri: 10:00 AM – 4:00 PM", "we": "Sat: 10:00 AM – 4:00 PM, Sun: Closed", "hrs": 30, "inv": "Furniture, wall decor and art, tabletop decor, kitchen and dining decor, lighting, rugs and textiles, home fragrance, bath and body, gift recommendations, clothing, bags and wallets, belts and scarves, and jewelry.", "tags": ["furniture", "wall_art", "home_decor", "kitchen_bar", "lighting", "textiles", "candles", "bath_body", "gifts", "apparel"], "price": "$40–$100", "plo": 40, "phi": 100, "onl": "Yes (via SHOP)", "oy": true, "brands": "E Newton", "social": "Facebook, Instagram", "events": "Magazine Shop Hop; holiday collection", "evy": true, "vln": "No", "notes": "", "loy": "Accent Prone Loyalty Program", "ly": true}, {"name": "Beck on Broad", "base": false, "addr": "106 N Broad St, Mooresville, NC 28115", "town": "Mooresville", "lat": 35.58302140226026, "lng": -80.81321528351403, "loc": "Larger town, side street", "wk": "Mon: Closed, Tue–Fri: 11:00 AM – 5:00 PM", "we": "Sat: 11:00 AM – 5:00 PM, Sun: Closed", "hrs": 30, "inv": "Clothing, jewelry and similar accessories.", "tags": ["apparel"], "price": "Not recorded", "plo": null, "phi": null, "onl": "No (no website)", "oy": false, "brands": "None recorded", "social": "Facebook, Instagram", "events": "None recorded", "evy": false, "vln": "No", "notes": "", "loy": "No", "ly": false}, {"name": "Lichen or Knot", "base": false, "addr": "152 N Main St, Mooresville, NC 28115", "town": "Mooresville", "lat": 35.583280497282445, "lng": -80.81200278301264, "loc": "Larger town, main street", "wk": "Mon–Thu: 10:00 AM – 5:00 PM, Fri: 10:00 AM – 6:00 PM", "we": "Sat: 10:00 AM – 6:00 PM, Sun: 10:00 AM – 5:00 PM", "hrs": 51, "inv": "Prints, accessories and apparel, baby and nursery, bath, candles, fragrances, cleaning, decor, garden, kitchen, seasonal items and textiles.", "tags": ["wall_art", "apparel", "bath_body", "candles", "home_decor", "florals", "kitchen_bar", "seasonal", "textiles"], "price": "$30–$80", "plo": 30, "phi": 80, "onl": "Yes (via SHOP)", "oy": true, "brands": "None recorded", "social": "Facebook, Instagram", "events": "None recorded", "evy": false, "vln": "No", "notes": "Primarily a plant store; limited overlap with The Bungalow Market.", "loy": "No", "ly": false}, {"name": "Sweet Grass", "base": false, "addr": "146-H, Mooresville Commons Way, Mooresville, NC 28117", "town": "Mooresville", "lat": 35.58576805597807, "lng": -80.87029605605338, "loc": "Larger town, side street", "wk": "Mon–Fri: 10:00 AM – 7:00 PM", "we": "Sat: 10:00 AM – 6:00 PM, Sun: 11:00 AM – 4:00 PM", "hrs": 58, "inv": "Clothing, hats, diffusers, bath and body, games, kitchen, home, bar, cups, cards, books, mahjong, slippers, scarves and pajamas.", "tags": ["apparel", "candles", "bath_body", "kitchen_bar", "home_decor", "gifts", "stationery"], "price": "$20–$50", "plo": 20, "phi": 50, "onl": "Yes", "oy": true, "brands": "None recorded", "social": "Facebook, Instagram", "events": "Holiday open house", "evy": true, "vln": "No", "notes": "", "loy": "No", "ly": false}, {"name": "Lilly & Grace", "base": false, "addr": "138 Village View Dr Ste 104, Mooresville, NC 28117", "town": "Mooresville", "lat": 35.52701789151944, "lng": -80.86688196811998, "loc": "Small town, side street", "wk": "Mon–Fri: 10:00 AM – 5:00 PM", "we": "Sat: 10:00 AM – 2:00 PM, Sun: Closed", "hrs": 39, "inv": "Design service.", "tags": ["design"], "price": "Not recorded", "plo": null, "phi": null, "onl": "No", "oy": false, "brands": "None recorded", "social": "Facebook, Instagram", "events": "None recorded", "evy": false, "vln": "No", "notes": "", "loy": "No", "ly": false}, {"name": "Main St. Antiques & Design Gallery", "base": false, "addr": "500 S Main St, Mooresville, NC 28115", "town": "Mooresville", "lat": 35.57584574693928, "lng": -80.81957231260581, "loc": "Larger town, main street", "wk": "Mon–Fri: 10:00 AM – 7:00 PM", "we": "Sat: 10:00 AM – 7:00 PM, Sun: 11:00 AM – 6:00 PM", "hrs": 61, "inv": "Wide variety; an antiques mall with overlap in knick-knacks and vintage items.", "tags": ["vintage", "home_decor"], "price": "Not recorded", "plo": null, "phi": null, "onl": "No", "oy": false, "brands": "None recorded", "social": "Facebook, Instagram", "events": "None recorded", "evy": false, "vln": "No", "notes": "", "loy": "No", "ly": false}, {"name": "KF Studios Handmade", "base": false, "addr": "202 S Main St Ste C, Davidson, NC 28036", "town": "Davidson", "lat": 35.498144776107495, "lng": -80.84932412197465, "loc": "Small town, main street", "wk": "Mon: Closed, Tue–Fri: 10:00 AM – 5:00 PM", "we": "Sat: 10:00 AM – 5:00 PM, Sun: 11:00 AM – 4:00 PM", "hrs": 40, "inv": "Paintings and artwork, pottery, jewelry, home goods, bath and body, specialty coffee, and books and poetry.", "tags": ["wall_art", "home_decor", "apparel", "bath_body"], "price": "$30–$100", "plo": 30, "phi": 100, "onl": "Yes (via SHOP)", "oy": true, "brands": "None recorded (highlights artists rather than brands)", "social": "Facebook, Instagram", "events": "Participates in Davidson town events; local artist showcases", "evy": true, "vln": "No", "notes": "Located in the same building as The Bungalow Market (Suite C).", "loy": "No", "ly": false}, {"name": "The Jewel Box", "base": false, "addr": "106 S Main St, Davidson, NC 28036", "town": "Davidson", "lat": 35.49892950627041, "lng": -80.84876423491156, "loc": "Small town, main street", "wk": "Mon–Thu: 10:00 AM – 5:00 PM, Fri: 10:00 AM – 6:00 PM", "we": "Sat: 10:00 AM – 6:00 PM, Sun: 11:00 AM – 5:00 PM", "hrs": 50, "inv": "Clothing, jewelry (necklaces, earrings, bracelets and more), shoes, and monogram service.", "tags": ["apparel"], "price": "$20–$40", "plo": 20, "phi": 40, "onl": "No (online ordering not set up on website)", "oy": false, "brands": "Pura Vida, Scout, 4Ocean", "social": "Facebook, Instagram", "events": "Participates in Davidson town events, such as a holiday open house", "evy": true, "vln": "Yes", "notes": "", "loy": "No", "ly": false}, {"name": "Lake Norman Antique Mall", "base": false, "addr": "467 E Plaza Dr, Mooresville, NC 28115", "town": "Mooresville", "lat": 35.596948311178416, "lng": -80.81634999376541, "loc": "Larger town, main street", "wk": "Mon–Fri: 10:00 AM – 6:00 PM", "we": "Sat: 10:00 AM – 6:00 PM, Sun: 12:00 PM – 6:00 PM", "hrs": 54, "inv": "Wide variety; an antiques mall with overlap in knick-knacks and vintage items.", "tags": ["vintage", "home_decor"], "price": "Not recorded", "plo": null, "phi": null, "onl": "No", "oy": false, "brands": "None recorded", "social": "Facebook, Instagram", "events": "None recorded", "evy": false, "vln": "No", "notes": "", "loy": "No", "ly": false}];
+const TAGS={home_decor:'Home decor',furniture:'Furniture',wall_art:'Wall art, frames and mirrors',lighting:'Lighting',textiles:'Pillows, rugs and textiles',kitchen_bar:'Kitchen, tabletop and bar',bath_body:'Bath and body',candles:'Candles and fragrance',gifts:'Gifts',stationery:'Stationery and cards',seasonal:'Seasonal',vintage:'Vintage and antiques',florals:'Florals, plants and garden',apparel:'Apparel and accessories',design:'Design services'};
+const TBM=DATA.find(d=>d.base), COMP=DATA.filter(d=>!d.base);
+const CATS=['Small town, main street','Small town, mid-tier street (South Main)','Small town, side street','Larger town, main street','Larger town, side street','Larger town, shopping center off main street'];
+const CC={'Small town, main street':'--c1','Small town, mid-tier street (South Main)':'--c6','Small town, side street':'--c2','Larger town, main street':'--c3','Larger town, side street':'--c4','Larger town, shopping center off main street':'--c5'};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const cv=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const short=(s,n)=>s.length>n?s.slice(0,n-1).trim()+'…':s;
+const none=s=>!s||/^(none recorded|not recorded)$/i.test(s);
+const R=3958.8, rad=x=>x*Math.PI/180;
+const dist=d=>{const a=rad(d.lat-TBM.lat),b=rad(d.lng-TBM.lng);const h=Math.sin(a/2)**2+Math.cos(rad(TBM.lat))*Math.cos(rad(d.lat))*Math.sin(b/2)**2;return 2*R*Math.asin(Math.sqrt(h))};
+const shared=d=>d.tags.filter(t=>TBM.tags.includes(t));
+const missing=d=>TBM.tags.filter(t=>!d.tags.includes(t));
+const extra=d=>d.tags.filter(t=>!TBM.tags.includes(t));
+const tier=d=>{const n=shared(d).length;return n>=7?'High':n>=4?'Medium':'Low'};
+const mi=d=>dist(d).toFixed(1);
+const dh=d=>{const x=d.hrs-TBM.hrs;return (x>0?'+':x<0?'−':'±')+Math.abs(x).toFixed(1).replace(/\.0$/,'')};
+const hh=x=>String(x).replace(/\.0$/,'');
+const placed=[[TBM.lat,TBM.lng]];
+const flat=(a,b)=>Math.hypot((a[0]-b[0])*69.0,(a[1]-b[1])*69.17*Math.cos(rad(a[0])));
+COMP.forEach(d=>{d.dist=dist(d);d.nsh=shared(d).length;d.plat=d.lat;d.plng=d.lng;d.near=d.dist<0.05;
+  if(d.near){d.plng+=0.00055;d.plat-=0.00015}
+  else if(placed.some(p=>flat(p,[d.lat,d.lng])<0.012)){d.plng+=0.0004;d.plat-=0.0001;d.shift=true}
+  placed.push([d.plat,d.plng])});
+
+let by='cat', off=new Set(), sel=null, cmp=[], sort={k:'dist',dir:1};
+const keyOf=d=>by==='cat'?d.loc:by==='vln'?d.vln:tier(d);
+const OV={High:'--o3',Medium:'--o2',Low:'--o1'};
+const varOf=d=>d.base?'--base':by==='cat'?CC[d.loc]:by==='vln'?(d.vln==='Yes'?'--c1':'--c2'):OV[tier(d)];
+const keys=()=>by==='cat'?CATS:by==='vln'?['Yes','No']:['High','Medium','Low'];
+const kcol=k=>by==='cat'?CC[k]:by==='vln'?(k==='Yes'?'--c1':'--c2'):OV[k];
+const lab=k=>by==='cat'?k:by==='vln'?(k==='Yes'?'Listed on Visit Lake Norman':'Not listed on Visit Lake Norman'):({High:'High overlap (7 or more of 14)',Medium:'Medium overlap (4 to 6)',Low:'Low overlap (3 or fewer)'})[k];
+
+/* ---------- Map ---------- */
+const map=L.map('map').setView([35.52,-80.85],11);
+const BASES=[
+ {id:'esri',name:'Esri Streets',url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',o:{maxZoom:19,attribution:'Tiles © Esri'}},
+ {id:'topo',name:'Esri Topographic',url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',o:{maxZoom:19,attribution:'Tiles © Esri'}},
+ {id:'sat',name:'Esri Satellite',url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',o:{maxZoom:19,attribution:'Tiles © Esri'}},
+ {id:'carto',name:'CARTO Light',url:'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',o:{maxZoom:19,subdomains:'abcd',attribution:'© OpenStreetMap contributors © CARTO'}},
+ {id:'osm',name:'OpenStreetMap',url:'https://tile.openstreetmap.org/{z}/{x}/{y}.png',o:{maxZoom:19,attribution:'© OpenStreetMap contributors'}}
+];
+let tiles=null,loaded=0,failed=0,cur=0;
+BASES.forEach(b=>{const o=document.createElement('option');o.value=b.id;o.textContent='Map: '+b.name;$('base').appendChild(o)});
+function setBase(i,auto){
+  cur=i;loaded=0;failed=0;$('note').hidden=true;$('base').value=BASES[i].id;
+  if(tiles) map.removeLayer(tiles);
+  tiles=L.tileLayer(BASES[i].url,Object.assign({referrerPolicy:'origin'},BASES[i].o)).addTo(map);
+  tiles.on('tileload',()=>loaded++);
+  tiles.on('tileerror',()=>{failed++;if(auto&&!loaded&&failed>=4&&cur===i&&i<BASES.length-1)setBase(i+1,true);else if(!loaded&&failed>=4&&i===BASES.length-1)$('note').hidden=false});
+}
+$('base').onchange=e=>setBase(BASES.findIndex(b=>b.id===e.target.value),false);
+setBase(0,true);
+[['Davidson',35.4994,-80.8487],['Cornelius',35.4868,-80.8606],['Huntersville',35.4108,-80.8429],['Mooresville',35.5849,-80.8101]].forEach(([n,a,b])=>
+  L.marker([a,b],{interactive:false,keyboard:false,icon:L.divIcon({className:'',html:'<span class="town">'+n+'</span>',iconSize:[0,0]})}).addTo(map));
+const towns=[...new Set(DATA.map(d=>d.town))].sort();
+towns.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t;$('town').appendChild(o)});
+
+const isNA=s=>!s||none(s);
+function tipHtml(d){
+  const row=(k,v,n)=>isNA(v)?'':'<dt>'+k+'</dt><dd>'+esc(n?short(v,n):v)+'</dd>';
+  let vs='';
+  if(d.base) vs='<div class="vs"><b>Baseline store.</b> Other stores are compared against this one.</div>';
+  else vs='<div class="vs"><b>Compared with The Bungalow Market</b><br>'+(d.near?'Same building (pin offset so both are visible) · ':mi(d)+' mi away · ')+d.nsh+' of '+TBM.tags.length+' product categories shared · '+dh(d)+' open hrs/week</div>';
+  return '<h3>'+esc(d.name)+'</h3><div>'+esc(d.addr)+'</div><span class="tag'+(d.base?' base':'')+'" style="--c:var('+varOf(d)+')">'+esc(d.loc)+'</span><dl class="kv">'+
+   row('Weekday',d.wk)+row('Weekend',d.we)+row('Average price range',d.price,110)+row('Products',d.inv,150)+row('Online',d.onl,60)+row('Loyalty program',d.loy)+row('Brands',d.brands,80)+'</dl>'+vs;
+}
+function detailHtml(d){
+  const row=(k,v)=>isNA(v)?'':'<dt>'+k+'</dt><dd>'+esc(v)+'</dd>';
+  const cats=d.tags.map(t=>'<span class="tg '+(d.base||TBM.tags.includes(t)?'s':'m')+'">'+TAGS[t]+'</span>').join('');
+  return '<button class="x" id="x" aria-label="Close details">×</button><h3>'+esc(d.name)+'</h3><p class="addr">'+esc(d.addr)+'</p><span class="tag'+(d.base?' base':'')+'" style="--c:var('+varOf(d)+')">'+esc(d.loc)+'</span><dl class="kv">'+
+   row('Weekday hours',d.wk)+row('Weekend hours',d.we)+row('Open per week',hh(d.hrs)+' hours')+row('Average price range',d.price)+row('Products',d.inv)+'<dt>Categories</dt><dd>'+cats+'</dd>'+row('Online ordering',d.onl)+row('Loyalty program',d.loy)+row('Brands',d.brands)+row('Social media',d.social)+row('Events',d.events)+row('Visit Lake Norman',d.vln)+row('Notes',d.notes)+
+   (d.base?'':row('Distance',mi(d)+' miles from The Bungalow Market'))+'</dl>'+
+   (d.base?'':'<button class="btn" id="cmpbtn">Compare with The Bungalow Market</button>');
+}
+function openDetail(d){
+  sel=d.name; $('detail').innerHTML=detailHtml(d); $('detail').hidden=false;
+  $('x').onclick=()=>{sel=null;$('detail').hidden=true;renderList()};
+  const b=$('cmpbtn'); if(b) b.onclick=()=>{addCmp(d);showTab('cmp')};
+  renderList();
+}
+const layer=L.layerGroup().addTo(map), markers={};
+let vsLine=null;
+function showLine(d){hideLine();if(d.base)return;vsLine=L.polyline([[TBM.lat,TBM.lng],[d.plat,d.plng]],{color:cv('--base'),weight:2,opacity:.65,dashArray:'5 6',interactive:false}).addTo(map)}
+function hideLine(){if(vsLine){map.removeLayer(vsLine);vsLine=null}}
+function visible(){
+  const q=$('q').value.trim().toLowerCase(), t=$('town').value;
+  return COMP.filter(d=>!off.has(keyOf(d)) && (!t||d.town===t) && (!q||Object.values(d).join(' ').toLowerCase().includes(q)));
+}
+function renderLegend(){
+  $('legend').innerHTML='';
+  keys().forEach(k=>{
+    const n=COMP.filter(d=>keyOf(d)===k).length; if(!n) return;
+    const b=document.createElement('button');b.className='chip';b.type='button';
+    b.setAttribute('aria-pressed',!off.has(k));b.style.setProperty('--c','var('+kcol(k)+')');
+    b.innerHTML='<i></i>'+esc(lab(k))+' <b>'+n+'</b>';
+    b.onclick=()=>{off.has(k)?off.delete(k):off.add(k);renderMap(false)};
+    $('legend').appendChild(b);
+  });
+  const bl=document.createElement('span');bl.className='chip';bl.style.cursor='default';bl.style.setProperty('--c','var(--base)');
+  bl.innerHTML='<i></i>The Bungalow Market (baseline)';$('legend').appendChild(bl);
+}
+function renderList(){
+  const ul=$('list'); ul.innerHTML='';
+  [TBM,...visible()].forEach(d=>{
+    const li=document.createElement('li'); li.className=(d.name===sel?'on ':'')+(d.base?'base':'');
+    li.tabIndex=0;
+    li.innerHTML='<i style="--c:var('+varOf(d)+')"></i><div><strong>'+esc(d.name)+'</strong><small>'+(d.base?'Baseline · ':'')+esc(d.town)+' · '+esc(d.loc)+(d.base?'':' · '+mi(d)+' mi')+'</small></div>';
+    li.onclick=()=>{map.setView([d.plat??d.lat,d.plng??d.lng],(d.near||d.shift)?18:Math.max(map.getZoom(),14));openDetail(d)};
+    li.onkeydown=e=>{if(e.key==='Enter')li.onclick()};
+    li.onmouseenter=()=>{const m=markers[d.name];if(m){m.setStyle({weight:4});m.bringToFront()}showLine(d)};
+    li.onmouseleave=()=>{const m=markers[d.name];if(m)m.setStyle({weight:d.base?3:2});hideLine()};
+    ul.appendChild(li);
+  });
+  if(ul.children.length===1){const li=document.createElement('li');li.textContent='No competitors match these filters.';ul.appendChild(li)}
+}
+function renderMap(fit){
+  renderLegend(); layer.clearLayers(); hideLine();
+  const v=visible();
+  v.forEach(d=>{
+    const m=L.circleMarker([d.plat,d.plng],{radius:9,weight:2,color:cv('--panel'),fillColor:cv(varOf(d)),fillOpacity:.95}).addTo(layer);
+    m.bindTooltip(tipHtml(d),{className:'tip',sticky:true,direction:'right',offset:[14,0],opacity:1});
+    m.on('click',()=>openDetail(d)); m.on('mouseover',()=>showLine(d)); m.on('mouseout',hideLine);
+    markers[d.name]=m;
+  });
+  const b=L.circleMarker([TBM.lat,TBM.lng],{radius:13,weight:3,color:cv('--panel'),fillColor:cv('--base'),fillOpacity:1}).addTo(layer);
+  b.bindTooltip(tipHtml(TBM),{className:'tip',sticky:true,direction:'right',offset:[16,0],opacity:1});
+  b.on('click',()=>openDetail(TBM)); markers[TBM.name]=b;
+  L.marker([TBM.lat,TBM.lng],{interactive:false,keyboard:false,icon:L.divIcon({className:'',html:'<span class="baselbl">The Bungalow Market</span>',iconSize:[0,0]})}).addTo(layer);
+  renderList();
+  if(fit) map.fitBounds(L.latLngBounds([TBM,...v].map(d=>[d.plat??d.lat,d.plng??d.lng])).pad(.15));
+}
+$('q').oninput=()=>renderMap(false);
+$('town').onchange=()=>renderMap(true);
+$('by').onchange=e=>{by=e.target.value;off.clear();renderMap(false)};
+
+/* ---------- Compare ---------- */
+const yn=(b)=>'<span class="pill '+(b?'y':'n')+'">'+(b?'Yes':'No')+'</span>';
+function pbar(d){
+  if(d.plo==null) return '<span class="muted">'+esc(d.price==='Not recorded'?'Not recorded':d.price)+'</span>';
+  const S=300,lo=d.plo/S*100,w=Math.max(1.5,(Math.min(d.phi,S)-d.plo)/S*100);
+  return '<div class="pcell"><div class="pbar"><span class="band" style="left:'+(20/S*100)+'%;width:'+(40/S*100)+'%"></span><span class="rng" style="left:'+lo+'%;width:'+w+'%"></span></div><small>$'+d.plo+' to $'+d.phi+'</small></div>';
+}
+const loyCell=d=>d.loy==='Not recorded'?'<span class="muted">Not recorded</span>':d.ly?'<span class="pill y">Yes</span><small class="muted" style="display:block;font-weight:400">'+esc(d.loy)+'</small>':yn(false);
+function renderTable(){
+  const cols=[['name','Store'],['dist','Distance'],['nsh','Product categories shared'],['plo','Average price range'],['hrs','Open hrs/week'],['onl','Online ordering'],['loy','Loyalty program'],['ev','Hosts events'],['vln','Visit Lake Norman'],['sel','Compare']];
+  const val=(d,k)=>k==='name'?d.name:k==='onl'?(d.oy?1:0):k==='ev'?(d.evy?1:0):k==='loy'?(d.base?-1:d.ly?1:0):k==='vln'?(d.vln==='Yes'?1:0):d[k]==null?-1:d[k];
+  const rows=[...COMP].sort((a,b)=>{const x=val(a,sort.k),y=val(b,sort.k);return (x<y?-1:x>y?1:0)*sort.dir});
+  let h='<thead><tr>'+cols.map(([k,t])=>k==='sel'?'<th>'+t+'</th>':'<th aria-sort="'+(sort.k===k?(sort.dir>0?'ascending':'descending'):'none')+'"><button data-k="'+k+'" data-on="'+(sort.k===k)+'">'+t+(sort.k===k?(sort.dir>0?' ▲':' ▼'):'')+'</button></th>').join('')+'</tr></thead><tbody>';
+  const line=(d)=>'<tr class="'+(d.base?'base':'')+'"><td class="nm">'+esc(d.name)+'<small>'+(d.base?'Baseline · ':'')+esc(d.town)+' · '+esc(d.loc)+'</small></td>'+
+   '<td class="num">'+(d.base?'Baseline':mi(d)+' mi')+'</td>'+
+   '<td><div class="ovb"><span class="t"><i style="width:'+(shared(d).length/TBM.tags.length*100)+'%"></i></span><span class="num">'+(d.base?TBM.tags.length:d.nsh)+' of '+TBM.tags.length+'</span></div></td>'+
+   '<td>'+pbar(d)+'</td>'+
+   '<td class="num">'+hh(d.hrs)+(d.base?'':'<span class="delta">'+dh(d)+'</span>')+'</td>'+
+   '<td>'+yn(d.oy)+'</td><td>'+loyCell(d)+'</td><td>'+yn(d.evy)+'</td><td>'+yn(d.vln==='Yes')+'</td>'+
+   '<td>'+(d.base?'':'<button class="btn alt" style="margin:0;padding:4px 10px" data-n="'+esc(d.name)+'">'+(cmp.includes(d.name)?'Remove':'Add')+'</button>')+'</td></tr>';
+  h+=line(TBM)+rows.map(line).join('')+'</tbody>';
+  $('tbl').innerHTML=h;
+}
+$('tbl').onclick=e=>{
+  const s=e.target.closest('button[data-k]'); if(s){const k=s.dataset.k;sort=sort.k===k?{k,dir:-sort.dir}:{k,dir:k==='name'||k==='dist'||k==='plo'?1:-1};renderTable();return}
+  const a=e.target.closest('button[data-n]'); if(a){const d=COMP.find(x=>x.name===a.dataset.n);cmp.includes(d.name)?rmCmp(d.name):addCmp(d);}
+};
+function addCmp(d){ if(!cmp.includes(d.name)){ if(cmp.length>=3) cmp.shift(); cmp.push(d.name);} renderCmp(); }
+function rmCmp(n){cmp=cmp.filter(x=>x!==n);renderCmp()}
+function renderCmp(){
+  renderTable();
+  const sel2=$('add'); sel2.innerHTML='<option value="">Add a store to compare…</option>'+COMP.filter(d=>!cmp.includes(d.name)).map(d=>'<option value="'+esc(d.name)+'">'+esc(d.name)+'</option>').join('');
+  const S=cmp.map(n=>COMP.find(d=>d.name===n)), cols=[TBM,...S];
+  const tg=(arr,cls)=>arr.length?arr.map(t=>'<span class="tg '+cls+'">'+TAGS[t]+'</span>').join(''):'<span class="muted">None</span>';
+  const rowf=(label,fn)=>'<tr><td>'+label+'</td>'+cols.map(d=>'<td class="'+(d.base?'b':'')+'">'+fn(d)+'</td>').join('')+'</tr>';
+  const txt=s=>isNA(s)?'<span class="muted">None recorded</span>':esc(s);
+  let h='<thead><tr><th></th>'+cols.map(d=>'<th class="'+(d.base?'b':'')+'">'+esc(d.name)+(d.base?'<span class="delta" style="display:block">Baseline</span>':'<button class="rm" data-rm="'+esc(d.name)+'">Remove</button>')+'</th>').join('')+'</tr></thead><tbody>';
+  h+=rowf('Address',d=>esc(d.addr));
+  h+=rowf('Location type',d=>esc(d.loc));
+  h+=rowf('Distance from baseline',d=>d.base?'<span class="muted">Baseline</span>':mi(d)+' miles');
+  h+=rowf('Weekday hours',d=>txt(d.wk));
+  h+=rowf('Weekend hours',d=>txt(d.we));
+  h+=rowf('Open per week',d=>hh(d.hrs)+' hours'+(d.base?'':' <span class="delta">'+dh(d)+' vs. baseline</span>'));
+  h+=rowf('Average price range',d=>pbar(d));
+  h+=rowf('Inventory focus',d=>txt(d.inv));
+  h+=rowf('Categories shared with baseline',d=>d.base?'<span class="muted">Baseline carries '+TBM.tags.length+'</span>':tg(shared(d),'s')+(shared(d).length?'':''));
+  h+=rowf('Baseline categories not carried',d=>d.base?'<span class="muted">Not applicable</span>':tg(missing(d),'m'));
+  h+=rowf('Carried only by this store',d=>d.base?'<span class="muted">Not applicable</span>':tg(extra(d),'m'));
+  h+=rowf('Online ordering',d=>esc(d.onl));
+  h+=rowf('Loyalty program',d=>d.loy==='Not recorded'?'<span class="muted">Not recorded</span>':esc(d.loy));
+  h+=rowf('Highlighted brands',d=>txt(d.brands));
+  h+=rowf('Social media',d=>txt(d.social));
+  h+=rowf('Events',d=>txt(d.events));
+  h+=rowf('Visit Lake Norman',d=>esc(d.vln));
+  h+=rowf('Notes',d=>txt(d.notes));
+  $('sbs').innerHTML=h+'</tbody>';
+}
+$('sbs').onclick=e=>{const r=e.target.closest('[data-rm]');if(r)rmCmp(r.dataset.rm)};
+$('add').onchange=e=>{const d=COMP.find(x=>x.name===e.target.value);if(d)addCmp(d)};
+
+/* ---------- Tabs ---------- */
+function showTab(t){
+  const m=t==='map';
+  $('v-map').hidden=!m; $('v-cmp').hidden=m;
+  $('tab-map').setAttribute('aria-selected',m); $('tab-cmp').setAttribute('aria-selected',!m);
+  if(m) setTimeout(()=>{map.invalidateSize();renderMap(false)},50);
+  try{ if(location.hash!=='#'+t) history.replaceState(null,'','#'+t) }catch(_){}
+}
+$('tab-map').onclick=()=>showTab('map'); $('tab-cmp').onclick=()=>showTab('cmp');
+window.addEventListener('hashchange',()=>showTab(location.hash==='#cmp'?'cmp':'map'));
+
+matchMedia('(prefers-color-scheme:dark)').addEventListener?.('change',()=>setTimeout(()=>renderMap(false),50));
+new MutationObserver(()=>renderMap(false)).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+cmp=[...COMP].sort((a,b)=>a.dist-b.dist).slice(0,3).map(d=>d.name);
+renderCmp(); renderMap(true);
+setTimeout(()=>{map.invalidateSize();renderMap(true)},150);
+if(location.hash==='#cmp') showTab('cmp');
+</script>
+
+</body>
+</html>
